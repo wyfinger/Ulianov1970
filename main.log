@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.6.3)  4 JUN 2015 09:31
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.6.3)  4 JUN 2015 11:34
 entering extended mode
 **main.tex
 (C:\DEV\Ulianov1970\main.tex
@@ -740,15 +740,15 @@ Overfull \hbox (1.63467pt too wide) in paragraph at lines 59--69
  [][] 
  []
 
-) [3 <C:/DEV/Ulianov1970/pic/1-2-1.png> <C:/DEV/Ulianov1970/pic/1-2-2.png> <C:/
-DEV/Ulianov1970/pic/1-2-3.png> <C:/DEV/Ulianov1970/pic/1-2-4.png>]
-(C:\DEV\Ulianov1970\tex\chapter02.tex [4
-
-
-
-]
+[3 <C:/DEV/Ulianov1970/pic/1-2-1.png> <C:/DEV/Ulianov1970/pic/1-2-2.png> <C:/DE
+V/Ulianov1970/pic/1-2-3.png> <C:/DEV/Ulianov1970/pic/1-2-4.png>]) [4]
+(C:\DEV\Ulianov1970\tex\chapter02.tex
 {\Russian \CYRG \cyrl \cyra \cyrv \cyra } 2.
-) [5] [6
+) [5
+
+
+
+] [6
 
 
 ] (C:\DEV\Ulianov1970\main.aux (C:\DEV\Ulianov1970\tex\chapter01.aux)
@@ -756,11 +756,11 @@ DEV/Ulianov1970/pic/1-2-3.png> <C:/DEV/Ulianov1970/pic/1-2-4.png>]
 Here is how much of TeX's memory you used:
  3818 strings out of 493921
  46555 string characters out of 3147274
- 120606 words of memory out of 3000000
+ 122606 words of memory out of 3000000
  7028 multiletter control sequences out of 15000+200000
  32126 words of font info for 44 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,15n,35p,1620b,327s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,15n,35p,1689b,327s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc
 /t2/t2a.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/pscyr/antiq5.pfb><C
 :/Program Files/MiKTeX 2.9/fonts/type1/public/pscyr/antiq6.pfb><C:/Program File
@@ -769,7 +769,7 @@ onts/type1/public/pscyr/antiq7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
 onts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 mr8.pfb>
-Output written on main.pdf (12 pages, 124281 bytes).
+Output written on main.pdf (12 pages, 130198 bytes).
 PDF statistics:
  80 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
