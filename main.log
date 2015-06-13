@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.6.3)  8 JUN 2015 23:17
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.6.3)  13 JUN 2015 12:35
 entering extended mode
 **main.tex
 (D:\Wyfinger\Projects\TeX\Ulianov1970\main.tex
@@ -734,6 +734,73 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip46
 )
+("D:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip47
+
+For additional information on amsmath, use the `?' option.
+("D:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("D:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks26
+\ex@=\dimen144
+))
+("D:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen145
+)
+("D:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count109
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count110
+\leftroot@=\count111
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count112
+\DOTSCASE@=\count113
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen146
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count114
+\c@MaxMatrixCols=\count115
+\dotsspace@=\muskip11
+\c@parentequation=\count116
+\dspbrk@lvl=\count117
+\tag@help=\toks27
+\row@=\count118
+\column@=\count119
+\maxfields@=\count120
+\andhelp@=\toks28
+\eqnshift@=\dimen147
+\alignsep@=\dimen148
+\tagshift@=\dimen149
+\tagwidth@=\dimen150
+\totwidth@=\dimen151
+\lineht@=\dimen152
+\@envbody=\toks29
+\multlinegap=\skip48
+\multlinetaggap=\skip49
+\mathdisplay@stack=\toks30
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+("D:\Program Files\MiKTeX 2.9\tex\latex\ncctools\nccboxes.sty"
+Package: nccboxes 2005/02/07 v1.2 Additional Boxes (NCC)
+\NCC@strutbox=\box29
+\NCC@strutsep=\dimen153
+)
+("D:\Program Files\MiKTeX 2.9\tex\latex\t2\mathtext.sty"
+Package: mathtext 1999/01/28 v1.0 transparent text-and-math defs
+LaTeX Info: Redefining \halign on input line 111.
+)
 (D:\Wyfinger\Projects\TeX\Ulianov1970\main.aux
 LaTeX Font Info:    Try loading font information for T2A+cmr on input line 20.
 
@@ -745,47 +812,47 @@ File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 LaTeX Warning: Label `tabl:effekivnost-apv' multiply defined.
 
 ) (D:\Wyfinger\Projects\TeX\Ulianov1970\tex\chapter02.aux))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Try loading font information for OT1+faq on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Try loading font information for OT1+faq on input line 25.
 
 ("D:\Program Files\MiKTeX 2.9\tex\latex\pscyr\ot1faq.fd"
 File: ot1faq.fd 2001/12/09 Fontinst v1.914 font definitions for OT1/faq.
 )
-LaTeX Font Info:    Try loading font information for T2A+faq on input line 20.
+LaTeX Font Info:    Try loading font information for T2A+faq on input line 25.
 
 ("D:\Program Files\MiKTeX 2.9\tex\latex\pscyr\t2afaq.fd"
 File: t2afaq.fd 2004/09/23 Fontinst v1.914 font definitions for T2A/faq.
 )
 ("D:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count109
-\scratchdimen=\dimen144
-\scratchbox=\box27
-\nofMPsegments=\count110
-\nofMParguments=\count111
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count112
-\MPscratchDim=\dimen145
-\MPnumerator=\count113
-\makeMPintoPDFobject=\count114
-\everyMPtoPDFconversion=\toks27
+\scratchcounter=\count121
+\scratchdimen=\dimen154
+\scratchbox=\box30
+\nofMPsegments=\count122
+\nofMParguments=\count123
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count124
+\MPscratchDim=\dimen155
+\MPnumerator=\count125
+\makeMPintoPDFobject=\count126
+\everyMPtoPDFconversion=\toks32
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -821,19 +888,19 @@ File: t2afaq.fd 2004/09/23 Fontinst v1.914 font definitions for T2A/faq.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box28
-Package hyperref Info: Link coloring OFF on input line 20.
+\AtBeginShipoutBox=\box31
+Package hyperref Info: Link coloring OFF on input line 25.
 ("D:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 ("D:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count115
+\c@section@level=\count127
 )
-LaTeX Info: Redefining \ref on input line 20.
-LaTeX Info: Redefining \pageref on input line 20.
-LaTeX Info: Redefining \nameref on input line 20.
+LaTeX Info: Redefining \ref on input line 25.
+LaTeX Info: Redefining \pageref on input line 25.
+LaTeX Info: Redefining \nameref on input line 25.
 
 (D:\Wyfinger\Projects\TeX\Ulianov1970\main.out)
 (D:\Wyfinger\Projects\TeX\Ulianov1970\main.out)
@@ -842,245 +909,400 @@ LaTeX Info: Redefining \nameref on input line 20.
 
 ] [2
 
-]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 29.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 29.
- [1
+] [1
 
 ] [2
 
 ]
-(D:\Wyfinger\Projects\TeX\Ulianov1970\main.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 3.
-)
+(D:\Wyfinger\Projects\TeX\Ulianov1970\main.toc)
 \tf@toc=\write4
  [3] [4
 
 ]
 (D:\Wyfinger\Projects\TeX\Ulianov1970\tex\chapter01.tex
 {\Russian \CYRG \cyrl \cyra \cyrv \cyra } 1.
-<pic/1-1.png, id=62, 245.4771pt x 202.5969pt>
+<pic/1-1.png, id=72, 245.4771pt x 202.5969pt>
 File: pic/1-1.png Graphic file (type png)
  <use pic/1-1.png>
-Package pdftex.def Info: pic/1-1.png used on input line 27.
+Package pdftex.def Info: pic/1-1.png used on input line 29.
 (pdftex.def)             Requested size: 183.80139pt x 151.69688pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.33 Рљ
+l.35 Рљ
        РѕРіРґР° С‚РѕРєРё РґРѕСЃС‚Р°С‚РѕС‡РЅРѕ РІРµР»РёРєРё (СЃРѕС‚РЅРё Р°РјР...
 [1
 
 
 ]
-Underfull \hbox (badness 3098) in paragraph at lines 35--36
+Underfull \hbox (badness 3098) in paragraph at lines 37--38
 \T2A/faq/m/n/12 гут быть столь ма-лы, что прак-ти-че-ски ими
  []
 
 
-Underfull \hbox (badness 1540) in paragraph at lines 35--36
+Underfull \hbox (badness 1533) in paragraph at lines 37--38
 \T2A/faq/m/n/12 мож-но пре-не-бречь. Та-кие за-мы-ка-ния на-зы-ва-ют
  []
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 37.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.57 
+l.59 
       [2 <D:/Wyfinger/Projects/TeX/Ulianov1970/pic/1-1.png>]
-<pic/1-2-1.png, id=88, 158.87355pt x 55.76836pt>
+<pic/1-2-1.png, id=98, 158.87355pt x 55.76836pt>
 File: pic/1-2-1.png Graphic file (type png)
  <use pic/1-2-1.png>
-Package pdftex.def Info: pic/1-2-1.png used on input line 64.
+Package pdftex.def Info: pic/1-2-1.png used on input line 66.
 (pdftex.def)             Requested size: 108.3501pt x 38.03429pt.
 
-<pic/1-2-2.png, id=89, 158.87355pt x 54.2025pt>
+<pic/1-2-2.png, id=99, 158.87355pt x 54.2025pt>
 File: pic/1-2-2.png Graphic file (type png)
  <use pic/1-2-2.png>
-Package pdftex.def Info: pic/1-2-2.png used on input line 65.
+Package pdftex.def Info: pic/1-2-2.png used on input line 67.
 (pdftex.def)             Requested size: 108.3501pt x 36.96637pt.
 
-<pic/1-2-3.png, id=90, 165.61874pt x 69.98145pt>
+<pic/1-2-3.png, id=100, 165.61874pt x 69.98145pt>
 File: pic/1-2-3.png Graphic file (type png)
  <use pic/1-2-3.png>
-Package pdftex.def Info: pic/1-2-3.png used on input line 66.
+Package pdftex.def Info: pic/1-2-3.png used on input line 68.
 (pdftex.def)             Requested size: 108.3501pt x 45.7821pt.
 
-<pic/1-2-4.png, id=91, 165.61874pt x 69.98145pt>
+<pic/1-2-4.png, id=101, 165.61874pt x 69.98145pt>
 File: pic/1-2-4.png Graphic file (type png)
  <use pic/1-2-4.png>
-Package pdftex.def Info: pic/1-2-4.png used on input line 67.
+Package pdftex.def Info: pic/1-2-4.png used on input line 69.
 (pdftex.def)             Requested size: 108.3501pt x 45.7821pt.
 
-Overfull \hbox (1.63467pt too wide) in paragraph at lines 60--70
+Overfull \hbox (1.63467pt too wide) in paragraph at lines 62--72
  [][] 
  []
 
 [3 <D:/Wyfinger/Projects/TeX/Ulianov1970/pic/1-2-1.png> <D:/Wyfinger/Projects/T
 eX/Ulianov1970/pic/1-2-2.png> <D:/Wyfinger/Projects/TeX/Ulianov1970/pic/1-2-3.p
 ng> <D:/Wyfinger/Projects/TeX/Ulianov1970/pic/1-2-4.png>]
-Overfull \vbox (95.53201pt too high) detected at line 114
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+[]\T2A/faq/m/n/12 Наглядной
  []
 
 
-Overfull \vbox (95.53201pt too high) detected at line 114
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+\T2A/faq/m/n/12 ил-лю-
  []
 
 
-Overfull \hbox (44.8406pt too wide) in paragraph at lines 114--114
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+\T2A/faq/m/n/12 стра-ци-ей
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+\T2A/faq/m/n/12 эф-фек-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+\T2A/faq/m/n/12 тив-но-сти
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+\T2A/faq/m/n/12 ав-то-ма-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+\T2A/faq/m/n/12 ти-че-ско-го
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+\T2A/faq/m/n/12 по-втор-но-го
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+\T2A/faq/m/n/12 вклю-че-ния
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+\T2A/faq/m/n/12 слу-жат
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+\T2A/faq/m/n/12 дан-ные
+ []
+
+
+Underfull \hbox (badness 6001) in paragraph at lines 96--96
+\T2A/faq/m/n/12 табл. []1.3[],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+\T2A/faq/m/n/12 пред-став-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+\T2A/faq/m/n/12 ля-ю-щие
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+\T2A/faq/m/n/12 по-ка-за-те-ли
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+\T2A/faq/m/n/12 ра-бо-ты
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+\T2A/faq/m/n/12 устройств
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+\T2A/faq/m/n/12 ав-то-ма-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+\T2A/faq/m/n/12 ти-че-ско-го
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+\T2A/faq/m/n/12 по-втор-но-го
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+\T2A/faq/m/n/12 вклю-че-ния
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+\T2A/faq/m/n/12 по всем
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+\T2A/faq/m/n/12 со-юз-ным
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+\T2A/faq/m/n/12 энер-го-си-
+ []
+
+
+Underfull \hbox (badness 2376) in paragraph at lines 96--96
+\T2A/faq/m/n/12 сте-мам за
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+\T2A/faq/m/n/12 пя-ти-ле-тие
+ []
+
+
+Overfull \hbox (16.44003pt too wide) in paragraph at lines 96--96
+\T2A/faq/m/n/12 19621966 гг.
+ []
+
+
+Overfull \vbox (95.53201pt too high) detected at line 120
+ []
+
+
+Overfull \vbox (95.53201pt too high) detected at line 120
+ []
+
+
+Overfull \hbox (44.8406pt too wide) in paragraph at lines 120--120
 []\T2A/faq/m/n/12 Однофазное
  []
 
 
-Overfull \hbox (6.6687pt too wide) in paragraph at lines 114--114
+Overfull \hbox (6.6687pt too wide) in paragraph at lines 120--120
 \T2A/faq/m/n/12 АПВ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--114
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
 \T2A/faq/m/n/12 од-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--114
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
 \T2A/faq/m/n/12 но-
  []
 
 
-Overfull \hbox (8.1087pt too wide) in paragraph at lines 114--114
+Overfull \hbox (8.1087pt too wide) in paragraph at lines 120--120
 \T2A/faq/m/n/12 крат-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--114
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
 \T2A/faq/m/n/12 но-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--114
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
 \T2A/faq/m/n/12 го
  []
 
 
-Overfull \hbox (2.91269pt too wide) in paragraph at lines 114--114
+Overfull \hbox (2.91269pt too wide) in paragraph at lines 120--120
 \T2A/faq/m/n/12 дей-
  []
 
 
-Overfull \hbox (10.19669pt too wide) in paragraph at lines 114--114
+Overfull \hbox (10.19669pt too wide) in paragraph at lines 120--120
 \T2A/faq/m/n/12 ствия 
  []
 
 
-Overfull \vbox (95.53201pt too high) detected at line 114
+Overfull \vbox (95.53201pt too high) detected at line 120
  []
 
 
-Overfull \hbox (87.21468pt too wide) in alignment at lines 114--114
+Overfull \hbox (87.21468pt too wide) in alignment at lines 120--120
 [][][][][][][] 
  []
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 122.
 
-Overfull \hbox (108.82591pt too wide) in paragraph at lines 124--124
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \vbox (9.23085pt too high) detected at line 130
+ []
+
+
+Overfull \hbox (3.83249pt too wide) in paragraph at lines 130--130
  []|[]| 
  []
 
 
-Overfull \hbox (2.43147pt too wide) in paragraph at lines 128--128
+Overfull \hbox (2.43147pt too wide) in paragraph at lines 134--134
  []|\T2A/faq/m/n/10.95 успешно| 
  []
 
 
-Overfull \hbox (13.19528pt too wide) in paragraph at lines 128--128
+Overfull \hbox (13.19528pt too wide) in paragraph at lines 134--134
  []|\T2A/faq/m/n/10.95 неуспешно| 
  []
 
 
-Overfull \hbox (2.43147pt too wide) in paragraph at lines 128--128
+Overfull \hbox (2.43147pt too wide) in paragraph at lines 134--134
  []|\T2A/faq/m/n/10.95 успешно| 
  []
 
 
-Overfull \hbox (13.19528pt too wide) in paragraph at lines 128--128
+Overfull \hbox (13.19528pt too wide) in paragraph at lines 134--134
  []|\T2A/faq/m/n/10.95 неуспешно| 
  []
 
 
-Overfull \hbox (2.43147pt too wide) in paragraph at lines 128--128
+Overfull \hbox (2.43147pt too wide) in paragraph at lines 134--134
  []|\T2A/faq/m/n/10.95 успешно| 
  []
 
 
-Overfull \hbox (13.19528pt too wide) in paragraph at lines 128--129
+Overfull \hbox (13.19528pt too wide) in paragraph at lines 134--135
  []|\T2A/faq/m/n/10.95 неуспешно| 
  []
 
 
-Overfull \hbox (1.62729pt too wide) in paragraph at lines 122--144
+Overfull \hbox (1.62729pt too wide) in paragraph at lines 128--150
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4] [5] [6] [7]) [8] (D:\Wyfinger\Projects\TeX\Ulianov1970\tex\chapter02.tex
+[4] [5]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
+[7] [8]) [9] (D:\Wyfinger\Projects\TeX\Ulianov1970\tex\chapter02.tex [10
+
+
+
+]
 {\Russian \CYRG \cyrl \cyra \cyrv \cyra } 2.
 
-Overfull \hbox (8.39719pt too wide) in paragraph at lines 17--19
+Overfull \hbox (8.4042pt too wide) in paragraph at lines 17--19
 []\T2A/faq/m/n/12 Пренебрежение ем-кост-ны-ми про-во-ди-мо-стя-ми. Это до-пу-ще
 -ние обыч-но яв-ля-ет-ся, умест-
  []
 
-[9
+[11] [12] [13] [14pdfTeX warning (ext4): destination with the same identifier (
+name{equation.2.3.10}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.147 \end{equation}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{equation.2.3.10}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.147 \end{equation}
+                    ]) [15pdfTeX warning (ext4): destination with the same iden
+tifier (name{equation.2.3.14}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.38 \include{./tex/chapter02}
+                              ] [16
 
 
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 43.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 43.
 
-]) [10]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 38.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 38.
- (D:\Wyfinger\Projects\TeX\Ulianov1970\main.aux
+(D:\Wyfinger\Projects\TeX\Ulianov1970\main.aux
 (D:\Wyfinger\Projects\TeX\Ulianov1970\tex\chapter01.aux)
 (D:\Wyfinger\Projects\TeX\Ulianov1970\tex\chapter02.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 38.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 38.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 43.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 43.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D8E40828505EBEEACFA7AB45621AF565;1932.
+(rerunfilecheck)             Checksum: 42670D34E3095E0F5A6F0C854F68824A;2490.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 38.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 43.
  ) 
 Here is how much of TeX's memory you used:
- 10894 strings out of 493921
- 147451 string characters out of 3147274
- 252736 words of memory out of 10000000
- 13983 multiletter control sequences out of 15000+200000
- 35984 words of font info for 49 fonts, out of 3000000 for 9000
+ 11586 strings out of 493921
+ 155688 string characters out of 3147274
+ 264942 words of memory out of 10000000
+ 14627 multiletter control sequences out of 15000+200000
+ 39199 words of font info for 57 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 29i,15n,35p,1788b,437s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,15n,35p,1788b,445s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/Program Files/MiKTeX 2.9/fonts/enc/t2/t2a.enc}<D:/Program Files/MiKTeX 2.
 9/fonts/type1/public/pscyr/antiq5.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/
 public/pscyr/antiq6.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/pscyr/a
 ntiq6.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/pscyr/antiq7.pfb><D:/
 Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on main.pdf (16 pages, 167514 bytes).
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmr8.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (22 pages, 215426 bytes).
 PDF statistics:
- 198 PDF objects out of 1000 (max. 8388607)
- 59 named destinations out of 1000 (max. 500000)
- 74 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 273 PDF objects out of 1000 (max. 8388607)
+ 81 named destinations out of 1000 (max. 500000)
+ 90 words of extra memory for PDF output out of 10000 (max. 10000000)
 
