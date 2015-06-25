@@ -2,7 +2,7 @@
    (C) Wyfinger, 2015
  */
 
-var pdffile = 'https://github.com/wyfinger/Ulianov1970/raw/master/main.pdf';//'http://wyfinger.github.io/Ulianov1970/main.pdf';
+var pdffile = 'http://wyfinger.github.io/Ulianov1970/main.pdf';
 var scale = 1.5;
 
 
