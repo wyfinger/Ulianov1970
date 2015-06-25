@@ -2,7 +2,7 @@
    (C) Wyfinger, 2015
  */
 
-var pdffile = 'http://wyfinger.github.io/Ulianov1970/main.pdf';
+var pdffile = 'https://github.com/wyfinger/Ulianov1970/raw/master/main.pdf';//'http://wyfinger.github.io/Ulianov1970/main.pdf';
 var scale = 1.5;
 
 
@@ -87,7 +87,7 @@ function renderPage(page) {
         
     });
 
-    page.getAnnotations().then(function (annotationContent){
+   /* page.getAnnotations().then(function (annotationContent){
        
         var annotationLayer = new AnnotationsLayerBuilder({
             pageDiv : $("#page" + pageNum),
@@ -96,7 +96,7 @@ function renderPage(page) {
         
         annotationLayer.setupAnnotations(;
 
-    });
+    });*/
 
    /* var renderContext = {
         canvasContext: pageContext,
