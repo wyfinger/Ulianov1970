@@ -24,7 +24,7 @@
 
     <!-- Bootstrap & Font-awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https:////maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>	
 
     <!-- Page style -->
@@ -54,28 +54,28 @@
 
 </head>
 
-<body data-spy="scroll" data-offset="0" data-target="#theMenu" class="">
+<body data-spy="scroll" data-offset="0" data-target="#theMenu">
 
     <!-- Menu -->
     <nav class="menu" id="theMenu">
         <div class="menu-wrap">
             <h1 class="logo"><a href="http://energobook.ru" target="_blank">energobook</a></h1>
 		    <i class="icon-remove menu-close"></i>
-		    <a href="./index.html#aboutauthor" class="smoothScroll">Об авторе</a>
-            <a href="./index.html#book" class="smoothScroll">Книга</a>
-            <a href="./index.html#aboutproject" class="smoothScroll">О проекте</a>
-            <a href="https://github.com/wyfinger/Ulianov1970" target="_blank">GitHub.com</a>
+		    <a href="#aboutauthor" class="smoothScroll"><i class="fa fa-angle-right"></i>Об авторе</a>
+            <a href="#aboutproject" class="smoothScroll"><i class="fa fa-angle-right"></i>О проекте</a>
+            <a href="https://github.com/wyfinger/Ulianov1970" target="_blank"><i class="fa fa-github"></i>GitHub.com</a>
+            <a href="https://github.com/wyfinger/Ulianov1970/raw/master/main.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>Скачать PDF</a>
         </div>
 	    <!-- Menu button -->
-	    <div id="menuToggle"><i class="fa fa-bars fa-lg"></i></div>
+	    <div id="menuToggle"><i class="fa fa-bars"></i></div>
     </nav>
 
     <!-- ========== About Author ========== -->
     <section id="aboutauthor" name="aboutauthor"></section>
 	<div class="container about_block"><br>
         <div class="row">
-            <div class="col-md-4"><img src="./pic/ulianov_sa.jpg"></div>
-            <div class="col-md-8">
+            <div class="col-md-2"><img src="./pic/ulianov_sa.jpg"></div>
+            <div class="col-md-10">
                 <h1>Сергей Александрович Ульянов</h1>
                 <p>(1903 - 1970)</p>
                 <p>Доктор технических наук, заслуженный деятель науки и техники, профессор, лауреат Государственной премии,
@@ -126,10 +126,22 @@
     <section id="aboutproject" name="aboutproject"></section>
 	<div class="container project_block">
 	    <div class="row">
-		    <h2>Ульянов С.А. Электромагнитные переходные процессы</h2>
-			<p>Попытка оцифровать в TeX верстку одну из основополагающих книг по электроэнергетике Сергея Александровича
-			 Ульянова "Электромагнитные переходные процессы", 1970 год.</p>
-			<p><i>Надеюсь мне хватит терпения хотябы на пару глав...</i></p>
+		    <div class="col-md-4">
+		    	<h2>Что это и зачем?</h2>
+				<p>Данная книга - один из основополагающих трудов по энергетике, учебник сотен тысяч инженеров,
+				 но, к сожалению, книга не переиздается, а бумажные экземпляры ветшают и приходят в негодность.</p>
+				<p>Изучая книгу мне пришло в голову оцифровать ее в формате TeX (а заодно освоить и эту систему),
+				 данный сайт создан для отображения книги в наиболее удобном виде.</p> 
+			</div>
+			<div class="col-md-4">
+				<h2>Хотите поучавствовать?</h2>
+				<p>Возможности, да и терпение, одного человека ограничены, если у вас есть желание помочь
+                 в верстке - присоединяйтесь к проекту на <a href="https://github.com/wyfinger/Ulianov1970" target="_blank">github</a>.</p>
+			</div>
+			<div class="col-md-4">
+				<h2>Контакты</h2>
+				<p>Замечания пишите в вопросы на <a href="https://github.com/wyfinger/Ulianov1970/issues" target="_blank">github</a> или на почту <a href="mailto:info@energobook.ru">info@energobook.ru</p>.
+			</div>
 	    </div>
 	</div>
 

@@ -2,11 +2,31 @@
    (C) Wyfinger, 2015
 */
 
+body {
+    background: url("../pic/bbg.jpg") 50% 0% transparent;
+}
+
+h1 {
+  font-family: MuseoSansCyr, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 3em;
+}
+
+h2 {
+  font-family: MuseoSansCyr, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
 p {
     text-indent: 1em;
-    font-family: "times";
+    font-family: 'PT Serif', Georgia, serif;
     font-size: 1.2em;
     text-align: justify;
+}
+
+div.project_block p {
+    text-align: left;
 }
 
 
@@ -56,7 +76,6 @@ div.about_block {
 }
 
 div.book_block {
-    background-color: #dbdbdb;
     width: 100%;
     text-align: center;
 }
@@ -140,7 +159,6 @@ div.project_block {
     width: 25px;
     font-size: 14px;
     line-height: 40px;
-    margin: 25px 2px;
 }
 
 .menu-close {
