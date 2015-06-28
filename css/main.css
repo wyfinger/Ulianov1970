@@ -109,7 +109,7 @@ div.project_block {
     left: 60px;
     background: #1a1a1a;
     width: 200px;
-    height: 100%;
+    height: 300px;
 }
 
 .menu h1.logo a {
@@ -243,4 +243,22 @@ div.project_block {
     transition: all .1s ease-in-out;
 }
 
+.menu-rss {
+    position: absolute;
+    top: 300px;
+    left: 60px;
+    background: #1a1a1a;
+    width: 200px;
+    height: 100%;
+}
+
+.menu-rss a {
+    text-transform: none;
+    line-height: 0px;
+    display: block;
+    line-height: 15px;
+    margin-left: 10px;
+    margin-bottom: 9px;
+    font-weight: normal;
+}
 
