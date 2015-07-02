@@ -22,7 +22,6 @@
 \hypersetup{pdfcreator={LaTeX}}
 \hypersetup{pdfproducer={http://ulianov.net}}
 
-\bibliographystyle{unsrt} % сортировка литературы в порядке упоминания (не как в книге)
 
 %\hypersetup{ pdfborder={0 0 0}} % чтобы ссылки не выделялись
 
@@ -38,10 +37,14 @@
 \frontmatter
 \maketitle
 \tableofcontents
-
 \mainmatter
+
 \include{./tex/chapter01}
 \include{./tex/chapter02}
+
+\bibliographystyle{unsrt} % сортировка литературы в порядке упоминания (не как в книге)
+\bibliography{./tex/lit}
+\addcontentsline{toc}{chapter}{\bibname}
 
 \backmatter
 % bibliography, glossary and index would go here.
