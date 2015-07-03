@@ -3,7 +3,7 @@
  */
 var rsspath = 'https://github.com/wyfinger/Ulianov1970/commits/master.atom';
 
-window.onload = function() {
+addEventListener("load", function() {
 
     $.ajax({
         url: document.location.protocol + '//ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=' + encodeURIComponent(rsspath),
@@ -25,4 +25,4 @@ window.onload = function() {
         }
     });
     
-}
+});

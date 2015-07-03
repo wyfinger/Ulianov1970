@@ -168,14 +168,14 @@ function preparePages(pdf){
 
 }
 
-window.onload = function (){
+addEventListener("load", function (){
 
     //PDFJS.disableWorker = true;
     var pdf = PDFJS.getDocument(pdffile).then(preparePages);
     
-}
+});
 
-window.onscroll = function() {
+addEventListener("scroll", function() {
   
     if (PDF == null) return;
     var bottomOffset = (window.pageYOffset || document.documentElement.scrollTop) + window.innerHeight;
@@ -191,7 +191,7 @@ window.onscroll = function() {
         }
     }
 
-}
+});
 
 /*
 window.onload = function () {
