@@ -152,7 +152,7 @@ div.project_block {
 }
 
 .menu a > i {
-    float: left;
+    /* float: left; */
     display: inline-block;
     vertical-align: middle;
     text-align: left;
@@ -245,7 +245,7 @@ div.project_block {
 
 .menu-rss {
     position: absolute;
-    top: 300px;
+    top: 260px;
     left: 60px;
     background: #1a1a1a;
     width: 200px;
