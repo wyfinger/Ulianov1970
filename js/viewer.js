@@ -4,7 +4,7 @@
 
 var pdffile = 'https://wyfinger.github.io/Ulianov1970/main.pdf';
 var scale = 1.5;
-
+var pagesOffset = new Array();
 
 var PDF;
 
@@ -33,6 +33,7 @@ function preparePage(page) {
     });
     $("#pdfContainer").append(pageAnnotation);
 
+    pagesOffset[page.pageNumber] = $("#page" + page.pageNumber).offset().top;
 }
 
 function renderPage(page) {
@@ -82,6 +83,8 @@ function renderPage(page) {
         for (var i = 0; i < textLayer.textDivs.length; i++) {
             $("#pageText" + pageNum).append(textLayer.textDivs[i]);
         }
+        
+        //console.log("render page " + pageNum);
 
         //setupAnnotations(page, viewport, pageCanvas, $('.annotation'+pageNum));
         
@@ -157,9 +160,17 @@ function preparePages(pdf){
 
     PDF = pdf;
 
+    //Prepare pages div 
     for (var i = 1; i <= PDF.numPages; i++) {
        PDF.getPage(i).then(preparePage);
     }
+
+    //If have a Hash we must scroll
+    if(document.location.hash){
+         document.location.hash = document.location.hash;
+    }
+
+    //Render first 3 pages
     var three = 3;
     if (PDF.numPages < 3) three = PDF.numPages
     for (var i = 1; i <= three ; i++) {
@@ -168,20 +179,22 @@ function preparePages(pdf){
 
 }
 
-window.onload = function (){
+addEventListener("load", function (){
 
     //PDFJS.disableWorker = true;
     var pdf = PDFJS.getDocument(pdffile).then(preparePages);
     
-}
+});
 
-window.onscroll = function() {
+addEventListener("scroll", function() {
   
     if (PDF == null) return;
     var bottomOffset = (window.pageYOffset || document.documentElement.scrollTop) + window.innerHeight;
     for (var i = PDF.numPages; i >= 1; i--) {
-        var pageDiv = $("#page" + i);
-        if (pageDiv.offset().top < bottomOffset) {
+        if (pagesOffset[i] < bottomOffset) {  //Cache of DIV offset
+        //var pageDiv = $("#page" + i);
+        //if (pageDiv.offset().top < bottomOffset) {
+            history.replaceState(null, null, "#page" + i);
             for (var j = i-2; j < i+2; j++) {                
                 if ((j <= PDF.numPages) & ($("#page" + j).hasClass('rendered') == false)) {
                     PDF.getPage(j).then(renderPage); 
@@ -191,7 +204,8 @@ window.onscroll = function() {
         }
     }
 
-}
+});
+
 
 /*
 window.onload = function () {

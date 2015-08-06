@@ -16,19 +16,19 @@
     <title>Электромагнитные переходные процессы</title>
 
     <!-- JQuery core -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
 
     <!-- JQuery plagins !-->
-    <script type="text/javascript" src="./js/classie.js"></script>
-    <script type="text/javascript" src="./js/smoothscroll.js"></script>
+    <script src="./js/classie.js" type="text/javascript"></script>
+    <script src="./js/smoothscroll.js" type="text/javascript"></script>
 
     <!-- Bootstrap & Font-awesome -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>	
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" type="text/javascript"></script>	
 
     <!-- Page style -->
-    <link rel="stylesheet" href="./css/main.css">
+    <link href="./css/main.css" rel="stylesheet">
 
     <!-- PDF Viewer -->
     <link href="./css/text_layer_builder.css" rel="stylesheet" media="screen" />
@@ -41,8 +41,12 @@
     <script src="./js/ui_utils.js" type="text/javascript"></script>
     <script src="./js/viewer.js" type="text/javascript"></script>
 
+	<!-- RSS News -->
+	<script src="./js/rss.js" type="text/javascript"></script>
+    
+	<!-- Menu Button Event -->
     <script type="text/javascript">
-        // Menu Button
+        // Menu Button Event
         $(document).ready(function() {
             $('#menuToggle, .menu-close').on('click', function(){
                 $('#menuToggle').toggleClass('active');
@@ -54,28 +58,32 @@
 
 </head>
 
-<body data-spy="scroll" data-offset="0" data-target="#theMenu" class="">
+<body data-spy="scroll" data-offset="0" data-target="#theMenu">
 
     <!-- Menu -->
     <nav class="menu" id="theMenu">
         <div class="menu-wrap">
-            <h1 class="logo"><a href="http://energobook.ru" target="_blank">energobook</a></h1>
+            <h1 class="logo"><a href="#" target="_blank">МЕНЮ</a></h1>
 		    <i class="icon-remove menu-close"></i>
-		    <a href="./index.html#aboutauthor" class="smoothScroll">Об авторе</a>
-            <a href="./index.html#book" class="smoothScroll">Книга</a>
-            <a href="./index.html#aboutproject" class="smoothScroll">О проекте</a>
-            <a href="https://github.com/wyfinger/Ulianov1970" target="_blank">GitHub.com</a>
+		    <a href="#aboutauthor" class="smoothScroll"><i class="fa fa-angle-right"></i>Об авторе</a>
+            <a href="#aboutproject" class="smoothScroll"><i class="fa fa-angle-right"></i>О проекте</a>
+            <a href="https://github.com/wyfinger/Ulianov1970" target="_blank"><i class="fa fa-github"></i>GitHub.com</a>
+            <a href="https://github.com/wyfinger/Ulianov1970/raw/master/main.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>Скачать PDF</a>
         </div>
-	    <!-- Menu button -->
-	    <div id="menuToggle"><i class="fa fa-bars fa-lg"></i></div>
+        <!-- RSS News -->
+        <div class="menu-rss" id="rssNews">
+        	<h1 class="logo"><a href="https://github.com/wyfinger/Ulianov1970/commits/master.atom" target="_blank">НОВОСТИ <i class="fa fa-rss"></i></a></h1>
+        </div>
+	    <!-- Menu Button -->
+	    <div id="menuToggle"><i class="fa fa-bars"></i></div>
     </nav>
 
     <!-- ========== About Author ========== -->
     <section id="aboutauthor" name="aboutauthor"></section>
 	<div class="container about_block"><br>
         <div class="row">
-            <div class="col-md-4"><img src="./pic/ulianov_sa.jpg"></div>
-            <div class="col-md-8">
+            <div class="col-md-2"><img src="./pic/ulianov_sa.jpg"></div>
+            <div class="col-md-10">
                 <h1>Сергей Александрович Ульянов</h1>
                 <p>(1903 - 1970)</p>
                 <p>Доктор технических наук, заслуженный деятель науки и техники, профессор, лауреат Государственной премии,
@@ -126,10 +134,22 @@
     <section id="aboutproject" name="aboutproject"></section>
 	<div class="container project_block">
 	    <div class="row">
-		    <h2>Ульянов С.А. Электромагнитные переходные процессы</h2>
-			<p>Попытка оцифровать в TeX верстку одну из основополагающих книг по электроэнергетике Сергея Александровича
-			 Ульянова "Электромагнитные переходные процессы", 1970 год.</p>
-			<p><i>Надеюсь мне хватит терпения хотябы на пару глав...</i></p>
+		    <div class="col-md-4">
+		    	<h2>Что это и зачем?</h2>
+				<p>Данная книга - один из основополагающих трудов по энергетике, учебник сотен тысяч инженеров,
+				 но, к сожалению, книга не переиздается, а бумажные экземпляры ветшают и приходят в негодность.</p>
+				<p>Изучая книгу мне пришло в голову оцифровать ее в формате TeX (а заодно освоить и эту систему),
+				 данный сайт создан для отображения книги в наиболее удобном виде.</p> 
+			</div>
+			<div class="col-md-4">
+				<h2>Хотите поучаствовать?</h2>
+				<p>Возможности, да и терпение, одного человека ограничены, если у вас есть желание помочь
+                 в верстке - присоединяйтесь к проекту на <a href="https://github.com/wyfinger/Ulianov1970" target="_blank">github</a>.</p>
+			</div>
+			<div class="col-md-4">
+				<h2>Контакты</h2>
+				<p>Замечания пишите в вопросы на <a href="https://github.com/wyfinger/Ulianov1970/issues" target="_blank">github</a> или на почту <a href="mailto:info@energobook.ru">info@energobook.ru</p>.
+			</div>
 	    </div>
 	</div>
 
