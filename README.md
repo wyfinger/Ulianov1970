@@ -4,3 +4,5 @@
 *Надеюсь, мне хватит терпения хотя бы на три главы.*
 
 Сайт книги: [http://ulianov.net](http://ulianov.net).
+
+Работа сейчас ведется на сайте [sharelatex.com](https://www.sharelatex.com/project/58ab878dbf3be6ae4fe684e4).
