@@ -1,8 +1,11 @@
 \documentclass[a4paper,12pt]{book}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{pscyr}          % Нормальные шрифты
-\usepackage[russian]{babel} %
-\usepackage{graphicx}
+\usepackage{graphicx,xcolor}
+
 \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm,bindingoffset=0cm]{geometry}
 \usepackage{wrapfig}   % обтекаемые текстом блоки
 \usepackage{soulutf8}  % выделение текста
@@ -17,6 +20,7 @@
 \usepackage{nccboxes}
 \usepackage{mathtext}
 \usepackage{floatflt}
+\usepackage{textcomp}
 
 \hypersetup{pdftitle={Электромагнитные переходные процессы}}  % метаданные PDF
 \hypersetup{pdfauthor={Сергей Александрович Ульянов}}
@@ -24,10 +28,22 @@
 \hypersetup{pdfproducer={http://ulianov.net}}
 
 
-%\hypersetup{ pdfborder={0 0 0}} % раскомментировать, чтобы ссылки не выделялись
+\hypersetup{ pdfborder={0 0 0}} % раскомментировать, чтобы ссылки не выделялись
+%\renewcommand{\theenumi}{(\Asbuk{enumi})}
 
-%\usepackage[dvips]{graphicx}
-%\graphicspath{{pic/}}
+% Этот код нужен для конвертации svg в pdf+tex на лету, взято из
+% http://mirrors.ctan.org/info/svg-inkscape/InkscapePDFLaTeX.pdf
+\graphicspath{{pic/}} 
+\newcommand{\executeiffilenewer}[3]{
+	\ifnum\pdfstrcmp{\pdffilemoddate{#1}}
+	{\pdffilemoddate{#2}} > 0 {\immediate\write18{#3}}\fi}
+\newcommand{\includesvg}[1]{
+	\executeiffilenewer{#1.svg}{#1.pdf}
+	{inkscape -z -D --file=#1.svg --export-pdf=#1.pdf --export-latex --export-png=#1.png}
+	\input{#1.pdf_tex}%
+}
+
+%-----------------------------------
 
 \begin{document}
 
@@ -40,15 +56,31 @@
 \tableofcontents
 \mainmatter
 
-\include{./tex/chapter00}
-\include{./tex/chapter01}
-\include{./tex/chapter02}
-\include{./tex/chapter03}
-\include{./tex/chapter04}
+\include{tex/chapter00}
+\include{tex/chapter01}
+\include{tex/chapter02}
+\include{tex/chapter03}
+\include{tex/chapter04}
+\include{tex/chapter05}
+\include{tex/chapter06}
+\include{tex/chapter07}
+\include{tex/chapter08}
+\include{tex/chapter09}
+\include{tex/chapter10}
+\include{tex/chapter11}
+\include{tex/chapter12}
+\include{tex/chapter13}
+\include{tex/chapter14}
+\include{tex/chapter15}
+\include{tex/chapter16}
+\include{tex/chapter17}
+\include{tex/chapter18}
+\include{tex/chapter19}
+\include{tex/directory}
 
-\bibliographystyle{unsrt} % сортировка литературы в порядке упоминания (не как в книге)
-\bibliography{./tex/lit}
-\addcontentsline{toc}{chapter}{\bibname}
+%\bibliographystyle{unsrt} % сортировка литературы в порядке упоминания (не как в книге)
+%\bibliography{./tex/lit}
+%\addcontentsline{toc}{chapter}{\bibname}
 
 \backmatter
 % bibliography, glossary and index would go here.
