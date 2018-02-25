@@ -1,0 +1,78 @@
+%% Creator: Inkscape inkscape 0.92.1, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file '1-1.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{230.04865813bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.82896945)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{1-1.pdf}}%
+    \put(0.00865579,0.77307251){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{\textit{ом}}}}}%
+    \put(-0.00095088,0.56143895){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textit{600}}}}%
+    \put(-0.00095088,0.31499969){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textit{200}}}}%
+    \put(0.0616446,0.00763676){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textit{0}}}}%
+    \put(0.46569403,0.00763676){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textit{0}\textit{,}\textit{5}}}}%
+    \put(0.8599977,0.00763676){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textit{1,0}}}}%
+    \put(0.69229399,0.01345557){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{\textit{сек}}}}}%
+    \put(0.92473185,0.56143895){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textit{0,4}}}}%
+    \put(0.92473185,0.31499969){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textit{0,2}}}}%
+    \put(0.93212165,0.77307251){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{\textit{ка}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{1-1.pdf}}%
+    \put(0.80308363,0.75927543){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{\textit{I}}}}}%
+    \put(0.23288234,0.66001377){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textit{2}}}}%
+    \put(0.52286022,0.67301972){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textit{1}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{1-1.pdf}}%
+    \put(0.36868756,0.43822149){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{\textit{I}}}}}%
+    \put(0.6117371,0.24757221){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textit{2}}}}%
+    \put(0.20823843,0.46936709){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textit{1}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{1-1.pdf}}%
+    \put(0.19362217,0.73805671){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0.16171215,0.75927543){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{\textit{r}}}}}%
+    \put(0.18285628,0.74559392){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{\textit{д}}}}}%
+    \put(0.72472671,0.49227883){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{\textit{r}}}}}%
+    \put(0.74587085,0.47859732){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{\textit{д}}}}}%
+  \end{picture}%
+\endgroup%

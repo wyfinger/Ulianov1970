@@ -1,0 +1,79 @@
+%% Creator: Inkscape inkscape 0.92.1, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file '12-2.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{685.35131668bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.44959836)%
+    \put(-0.52790172,0.32880911){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{12-2.pdf}}%
+    \put(0.34959225,0.30606908){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\overset{\cdot }{U}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{12-2.pdf}}%
+    \put(0.51374167,0.30552192){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$jx_\mu$}}}%
+    \put(0.43166695,0.33123866){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I$}}}%
+    \put(0.59745784,0.33889899){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\frac{\overset{\cdot}{r_p}}{s}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{12-2.pdf}}%
+    \put(0.38898809,0.38376646){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$r$}}}%
+    \put(0.44589323,0.38376646){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$jx_{\sigma}$}}}%
+    \put(0.52468492,0.38376646){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$j\overset{~\cdot}{x}_{\sigma p}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{12-2.pdf}}%
+    \put(0.02870336,0.00343118){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{12-2.pdf}}%
+    \put(0.06352469,0.03786565){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$s_{Н}$}}}%
+    \put(0.32745523,0.00343118){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1$}}}%
+    \put(0.61854684,0.00343118){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$2$}}}%
+    \put(0.53521081,0.04250849){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$(2-s_{Н})$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{12-2.pdf}}%
+    \put(-0.00193787,0.20424064){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0,5$}}}%
+    \put(-0.00193787,0.4318611){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1,0$}}}%
+    \put(0.60726606,0.03786565){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$s$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{12-2.pdf}}%
+    \put(0.06780246,0.39197393){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\frac{x_s}{x_{s\text{н}}}$}}}%
+    \put(0.13948102,0.26010726){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\frac{x_s}{x_{s\text{н}}}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{12-2.pdf}}%
+  \end{picture}%
+\endgroup%
